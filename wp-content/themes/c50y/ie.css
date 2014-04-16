@@ -1,0 +1,3 @@
+.wrapper-holder{min-height:100%}
+.wrapper-holder .wrapper-frame{padding-bottom:expression(document.getElementById("footer").offsetHeight+"px")}
+#footer{position:relative;margin-top:expression(-this.offsetHeight+"px")}

@@ -1,0 +1,25 @@
+# [app:env]
+SetEnv APPLICATION_ENV prod
+
+# [prod]
+SetEnv PROD_DB_NAME org_4inh
+SetEnv PROD_DB_USER root
+SetEnv PROD_DB_PASSWORD abstract
+SetEnv PROD_DB_HOST localhost
+# mysql.marketingwithastory.com
+
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+

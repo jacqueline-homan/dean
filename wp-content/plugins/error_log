@@ -1,0 +1,1 @@
+[29-May-2013 23:08:15] PHP Fatal error:  Call to undefined function  add_action() in /home/sitepoti/public_html/in4h.org/wp-content/plugins/hello.php on line 60
