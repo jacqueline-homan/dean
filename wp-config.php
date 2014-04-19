@@ -1,4 +1,6 @@
 <?php
+function update_option('siteurl', 'http://localhost/in4h.org');
+function update_option('home', 'http://localhost/in4h.org');
 /**
  * The base configurations of the WordPress.
  *
@@ -36,6 +38,10 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+/** Points the url to the local dev copy not the live site */
+define('WP_HOME', 'http://localhost/in4h.org');
+define('WP_SITEURL', 'http://localhost/in4h.org');
 
 /**#@+
  * Authentication Unique Keys and Salts.
