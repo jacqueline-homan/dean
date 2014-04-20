@@ -33,7 +33,12 @@ input,textarea,select{vertical-align:middle;color:#a8996e;text-transform:upperca
 #header .social a.rss{background-position:-106px 0}
 
 #nav{width:100%;clear:both;text-align:right;text-transform:uppercase;padding:6px 0 0}
-#nav li{display:inline-block;vertical-align:top;padding:0 0 0 19px;position:relative}
+#nav li{
+	display:inline-block;
+	vertical-align:top; 
+	padding:0 0 0 12px;
+	position:relative
+}
 * + html #nav li{display:inline}
 #nav a{color:#dfd9c9;display:inline-block;vertical-align:top;padding:11px 0 9px;outline:none}
 #nav li:hover{background:url(images/bg-nav-hover.gif) no-repeat 0 100%}
@@ -163,3 +168,4 @@ h2.stay-in{background:url(images/text-stay-in.gif) no-repeat;width:212px;height:
 font-size: 22px;
 color: #fff;
 }
+

@@ -9,7 +9,8 @@ get_header();
 				?><div class="text-holder"><?php
 					?><div class="text"><h1>Hall of Fame</h1></div><?php
 					echo category_description();										
-					?><div id="comments"><?php
+					?><div id="comments">
+					<?php
 						if (have_posts()){
 							while (have_posts()){
 								the_post();
@@ -35,14 +36,12 @@ get_header();
 								?><p>Sorry, but you are looking for something that isn't here.</p><?php
 							?></div><?php
 						}
-					?></div><?php
-				?></div><?php
-			?></div><?php
-			
-			the_single_sidebar();
-			
-		?></div><?php
-	?></div><?php
-?></div><?php
-
-get_footer();
+					?>
+					</div>
+				</div>
+			</div>
+			<?php the_single_sidebar(); ?>
+		</div>
+	</div>
+</div>
+<?php get_footer(); ?>

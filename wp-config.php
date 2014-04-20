@@ -1,6 +1,6 @@
 <?php
-function update_option('siteurl', 'http://localhost/in4h.org');
-function update_option('home', 'http://localhost/in4h.org');
+/* update_option('siteurl', 'http://localhost/in4h.org');*/
+ /*update_option('home', 'http://localhost/in4h.org'); */
 /**
  * The base configurations of the WordPress.
  *

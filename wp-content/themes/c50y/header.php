@@ -22,7 +22,7 @@
 
 
 
-					?><div id="attleadin">presented by AT&amp;T:</div><a href="http://www.att.com"><img src="http://in4h.org/wp-content/uploads/2011/10/sponsor.logo_.att_.png" id="attlogo" width="111" height="67" alt="Rethink Possible" border="0" /></a><?
+					?><div id="attleadin">presented by AT&amp;T:</div><a href="http://www.att.com"><img src="http://in4h.org/wp-content/uploads/2011/10/sponsor.logo_.att_.png" id="attlogo" width="111" height="67" alt="Rethink Possible" border="0" /></a><?php
 
 					
 
