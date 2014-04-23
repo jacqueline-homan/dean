@@ -7,11 +7,11 @@
 
 
 					<div class="footer-copy" >
-						<h3>4 ways to stay in touch<h3>
+						<h3><h3>
 							<p></p>
 							<img src="<?php 
 								bloginfo('siteurl');
-							?>/wp-content/themes/c50y/images/logo.gif" /> 
+							?>/wp-content/themes/c50y/images/clover.png" /> 
 
 					</div>
 

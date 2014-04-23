@@ -144,8 +144,8 @@ h2.stay-in{background:url(images/text-stay-in.gif) no-repeat;width:212px;height:
 #footer .boxes-c{background:url(images/bg-boxes-c.png) repeat-y;width:969px;padding:11px 0 0 0}
 #footer .boxes-c:after{content:"";display:block;clear:both}
 #footer .boxes-b{background:url(images/bg-boxes-b.png) no-repeat;width:969px;height:12px;overflow:hidden}
-#footer .boxes .box{padding:0 16px 0 17px;width:287px;float:left;font:11px/11px Tahoma,Arial,Helvetica,sans-serif;color:#280f0c}
-#footer .boxes .box a{color:#280f0c}
+#footer .boxes .box{padding:0 16px 0 17px;width:287px;float:left;font:11px/11px Tahoma,Arial,Helvetica,sans-serif;color:#EBE7DA}
+#footer .boxes .box a{color:#EBE7DA}
 #footer .boxes h4{font:bold 14px/17px Tahoma,Arial,Helvetica,sans-serif;text-transform:uppercase;padding:0 0 2px}
 #footer .boxes ul{margin:0 0 0 -10px;padding:11px 0 0;line-height:14px}
 #footer .boxes ul li{background:url(images/bullet.gif) no-repeat 0 3px;padding:0 0 12px 14px}
