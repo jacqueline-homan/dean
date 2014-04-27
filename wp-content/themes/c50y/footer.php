@@ -5,14 +5,16 @@
 			?><div class="footer-frame"><?php
 				?><div class="container">
 					<div class="footer-copy" >
+						<br />
 						<h3><?php bloginfo('name');?></h3>
-						<p>Agricultural Administration Building, 615 West Street, West Lafayette, IN 47907 <br/>
-						P: (765) 494-8483 <span class="sep">|</span> F: (765) 494-5876</p>
+						<address>Agricultural Administration Building, 615 West Street, West Lafayette, IN 47907 <br/>
+						P: (765) 494-8483 <span class="sep">|</span> F: (765) 494-5876</address>
 					</div>
 					<div class="footer-logo">
 						<img src="<?php bloginfo('template_url'); ?>/images/clover.png" />
 
 					</div>
+					<br />
 					<div class="footer-search">
 
 								<form action="/" method="get">
@@ -26,6 +28,14 @@
 						     
 					</div>
 					<div class="clear"></div>
+					<div class="footer-bottom-nav">
+					  <ul>
+					  	<li>TERMS</li>
+					  	<li>DISCLAIMER</li>
+					  	<li>CONTACT THE FOUNDATION</li>
+					  	<li>COPYRIGHT &copy; 2014 Indiana 4-H Foundation.</li>
+					  </ul>
+					</div>
 
 				</div><?php
 			?></div><?php

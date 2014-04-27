@@ -116,11 +116,32 @@ h2.stay-in{background:url(images/text-stay-in.gif) no-repeat;width:212px;height:
 #commentform .btn-submit{float:left;text-indent:-9999px;background:url(images/btn-submit.gif) no-repeat;width:44px;height:22px;font-size:0;line-height:0;overflow:hidden;border:0;padding:0;margin:0 0 0 110px;cursor:pointer}
 
 #footer{
-  border:1px solid: #231F20; background-color: #EBE7DA; padding:0 min-height: -330px position: relative; 
+  border: -1px solid: #231F20; background-color: #EBE7DA; padding:0 min-height: -330px position: relative; 
 }
 .footer-copy h3 {
-   color: #00A261; font-size: 15px; font-weight: bold; 
+   
+   color: #00A261; 
+   font-size: 16px; 
+   font-weight: bold;
+}
 
+.footer-bottom-nav {
+	background-color: #231F20;
+	text-align: center;
+	width: 100%;
+}
+
+.footer-bottom-nav ul {
+    display: inline;
+    
+}
+
+.footer-bottom-nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: #EBE7DA;
+	padding: 2.5px;
+	margin: 2.5px 5px;
 }
 .footer-search { width:306px;}
 .footer-search form {
