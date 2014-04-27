@@ -28,17 +28,17 @@
 						     
 					</div>
 					<div class="clear"></div>
-					<div class="footer-bottom-nav">
+					
+
+				</div><?php
+			?><div class="footer-bottom-nav">
 					  <ul>
 					  	<li>TERMS</li>
 					  	<li>DISCLAIMER</li>
 					  	<li>CONTACT THE FOUNDATION</li>
-					  	<li>COPYRIGHT &copy; 2014 Indiana 4-H Foundation.</li>
+					  	<li>COPYRIGHT © 2014 Indiana 4-H Foundation.</li>
 					  </ul>
-					</div>
-
-				</div><?php
-			?></div><?php
+					</div></div><?php
 		?></div><?php
 	?></div><?php
 ?></div><?php wp_footer();?></body></html>

@@ -129,10 +129,13 @@ h2.stay-in{background:url(images/text-stay-in.gif) no-repeat;width:212px;height:
 	background-color: #231F20;
 	text-align: center;
 	width: 100%;
+	top: -9px;
+	position: relative;
 }
 
 .footer-bottom-nav ul {
     display: inline;
+    padding: 5px;
     
 }
 
@@ -141,7 +144,9 @@ h2.stay-in{background:url(images/text-stay-in.gif) no-repeat;width:212px;height:
 	list-style-type: none;
 	color: #EBE7DA;
 	padding: 2.5px;
-	margin: 2.5px 5px;
+	margin: 2.5px 10px;
+	font-size: 77%;
+	line-height: 175%;
 }
 .footer-search { width:306px;}
 .footer-search form {
