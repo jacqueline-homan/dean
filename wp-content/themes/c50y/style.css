@@ -115,10 +115,44 @@ h2.stay-in{background:url(images/text-stay-in.gif) no-repeat;width:212px;height:
 #commentform textarea{float:left;border:1px solid #d1c9b2;background:#f4f2eb;width:363px;height:42px;max-width:363px;max-height:42px;padding:2px 2px 2px 3px;margin:0;overflow:auto}
 #commentform .btn-submit{float:left;text-indent:-9999px;background:url(images/btn-submit.gif) no-repeat;width:44px;height:22px;font-size:0;line-height:0;overflow:hidden;border:0;padding:0;margin:0 0 0 110px;cursor:pointer}
 
-#footer.panel
+#footer{
+  border:1px solid: #231F20; background-color: #EBE7DA; padding:0 min-height: -330px position: relative; 
+}
+.footer-copy h3 {
+   color: #00A261;
+}
+.footer-search { width:306px;}
+.footer-search form {
+  float: right;
+}
+/* search text field */
+.footer-search input#search {
+	border: 0;
+	border-radius: 5px;
+	padding: 4px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+/* search submit button field */
+.footer-search input.search-submit {
+   background-image: url(images/search-btn.png);
+   border: 0;
+   margin-left: -5px;
+   border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+} 
+.clear { clear: both; }
+.footer-copy,
+.footer-logo,
+.footer-search { float: left;}
+.footer-copy {
+width: 55%;
+}
 /* override form */
 #content input.BBFormSubmitbutton {
 font-size: 22px;
 color: #fff;
 }
-
+#footer .container {margin: auto; width: 100%;
+	max-width: 940px;
+}
