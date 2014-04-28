@@ -17,7 +17,7 @@
 			?><div id="header"><?php
 
 				?><div class="holder"><?php
-                     
+
 					?><strong class="logo"><a href="<?php bloginfo('url');?>"><?php bloginfo('name');?></a></strong><?php
 
 
@@ -29,7 +29,7 @@
 					the_sidebar('socials');
 
 					
-                    ?><ul class="dropdown-menu" role="menu"><?php
+
 					wp_nav_menu(array(
 
 						'menu' => 'main-menu',
