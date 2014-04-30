@@ -250,9 +250,11 @@ input,textarea,select {
   background: none;
 }
 
-ul#nav.nav {
-
+#nav ul ul li {
+  float:none;
+  position: relative;
 }
+
 
 #main {
   width: 944px;
