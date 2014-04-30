@@ -40,9 +40,10 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** Points the url to the local dev copy not the live site */
-define('WP_HOME', 'http://localhost/in4h.org');
-define('WP_SITEURL', 'http://localhost/in4h.org');
-
+//define('WP_HOME', 'http://localhost/in4h.org');
+//define('WP_SITEURL', 'http://localhost/in4h.org');
+define('WP_HOME', 'http://65.185.83.233/in4h.org');
+define('WP_SITEURL', 'http://65.185.83.233/in4h.org');
 /**#@+
  * Authentication Unique Keys and Salts.
  *

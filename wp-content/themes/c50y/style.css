@@ -186,9 +186,11 @@ input,textarea,select {
   position: relative;
 }
 
+/* 
 * + html #nav li {
   display: inline;
 }
+*/
 
 #nav a {
   color: #dfd9c9;
@@ -254,6 +256,7 @@ input,textarea,select {
   float:none;
   position: relative;
 }
+
 
 
 #main {

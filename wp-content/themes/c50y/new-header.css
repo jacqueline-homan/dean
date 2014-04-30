@@ -1,0 +1,86 @@
+.dropdown-menu {
+
+}
+
+.dropdown-menu #nav {
+
+}
+
+.dropdown-menu #nav ul {
+position: absolute;
+font: 12px/15px Tahoma,Arial,Helvetica,sans-serif;
+color: #A8996E;
+left: -25px;
+top: 35px;
+padding: 2px 0 0 14px;
+display: none;
+width: 100%;
+background:#fff;
+border:#00a160 solid 1px;
+}
+
+.dropdown-menu #nav>li:hover {
+background: url(images/bg-nav-hover.gif) no-repeat 50% 140%;
+}
+
+.dropdown-menu #nav a { 
+display:block;
+}
+
+.dropdown-menu #nav ul li a {
+width:auto;
+color:#A8996E!important;
+text-align:left;
+background-image:none;
+}
+
+.dropdown-menu #nav ul li a:hover {
+text-decoration:none;
+
+}
+
+
+.dropdown-menu #nav ul a:hover {
+color:#231F20!important;
+
+}
+
+.dropdown-menu #nav li:hover ul:first-child {
+display:block;
+}
+
+.dropdown-menu #nav li:hover li {
+background-image:none;
+}
+
+.dropdown-menu #nav li li {
+float:right;
+width:96%;
+border-bottom:dashed 1px #A8996E;
+}
+
+.dropdown-menu #nav li li:last-child {
+border-bottom:none;
+}
+
+.dropdown-menu #nav ul li ul li a {
+width:auto;
+color:#A8996E!important;
+}
+
+.dropdown-menu #nav ul li ul li a:hover {
+width:auto;
+color:#231F20!important;
+}
+
+.dropdown-menu #nav ul li ul {
+border:#00a160 solid 1px!important;
+}
+
+.dropdown-menu #nav ul li ul li {
+float: right;
+clear:both;
+padding: 2px 6px 7px 9px;
+background-image:none;
+border:#00a160 solid 1px!important;
+}
