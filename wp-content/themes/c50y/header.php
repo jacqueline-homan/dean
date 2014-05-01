@@ -50,4 +50,4 @@
 
 				?>
                 </div>
-			</div></div><div id="main">
+			</div></div><div id="main"></div>
