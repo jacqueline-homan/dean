@@ -12,7 +12,7 @@ font: 12px/15px Tahoma,Arial,Helvetica,sans-serif;
 color: #A8996E;
 left: -25px;
 top: 35px;
-padding: 2px 0 0 14px;
+padding: 5px 15px 5px 10px;
 display: none;
 width: 100%;
 background:#fff;
@@ -31,6 +31,7 @@ display:block;
 width:auto;
 color:#A8996E!important;
 text-align:left;
+border-bottom:dashed 1px #A8996E;
 background-image:none;
 }
 
@@ -54,9 +55,9 @@ background-image:none;
 }
 
 .dropdown-menu #nav li li {
-float:right;
-width:96%;
-border-bottom:dashed 1px #A8996E;
+float:none;
+width:100%;
+padding: 2px;
 }
 
 .dropdown-menu #nav li li:last-child {

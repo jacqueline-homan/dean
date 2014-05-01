@@ -11,7 +11,8 @@ if (have_posts()){
 
 	the_post();
 	
-	$_attachments = get_post_attachments_ids(get_the_ID());
+	//*$_attachments = get_post_attachments_ids(get_the_ID());
+	$_attachments = "";
 	if (!empty($_attachments)){
 		?><div class="photos gallery"><?php
 			?><ul><?php

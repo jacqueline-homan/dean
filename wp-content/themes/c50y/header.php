@@ -29,7 +29,7 @@
 					the_sidebar('socials');
 
 					
-                    ?><ul class="dropdown-menu" role="menu"><?php
+                    ?><div class="dropdown-menu" role="menu"><?php
 					wp_nav_menu(array(
 
 						'menu' => 'main-menu',
@@ -48,4 +48,6 @@
 
 					
 
-				?></div></div><div id="main">
+				?>
+                </div>
+			</div></div><div id="main">
