@@ -1,72 +1,67 @@
-.dropdown-menu {
-
-}
-
-.dropdown-menu #nav {
-
-}
-
 .dropdown-menu #nav ul {
-position: absolute;
-font: 12px/15px Tahoma,Arial,Helvetica,sans-serif;
-color: #A8996E;
-left: -25px;
-top: 35px;
-padding: 5px 15px 5px 10px;
-display: none;
-width: 100%;
-background:#fff;
-border:#00a160 solid 1px;
+    position: absolute;
+    font: 12px/15px Tahoma,Arial,Helvetica,sans-serif;
+    color: #A8996E;
+    left: -25px;
+    top: 35px;
+    padding: 5px 15px 5px 10px;
+    display: none;
+    width: 100%;
+    background:#fff;
+    border:#00a160 solid 1px;
 }
-
+.dropdown-menu #nav li {
+    padding-left:0;
+}
 .dropdown-menu #nav>li:hover {
-background: url(images/bg-nav-hover.gif) no-repeat 50% 140%;
+    background: url(images/bg-nav-hover.gif) no-repeat 50% 140%;
 }
 
-.dropdown-menu #nav a { 
-display:block;
+.dropdown-menu #nav a {
+    display:block;
 }
 
 .dropdown-menu #nav ul li a {
-width:auto;
-color:#A8996E!important;
-text-align:left;
-border-bottom:dashed 1px #A8996E;
-background-image:none;
+    width:auto;
+    color:#A8996E!important;
+    text-align:left;
+    border-bottom:dashed 1px #A8996E;
+    background-image:none;
 }
 
 .dropdown-menu #nav ul li a:hover, .dropdown-menu #nav ul li a:active {
-text-decoration:none;
+    text-decoration:none;
 
 }
 
 
 .dropdown-menu #nav ul a:hover, .dropdown-menu #nav ul a:active {
-color:#231F20!important;
+    color:#231F20!important;
 
 }
 
 .dropdown-menu #nav li:hover ul:first-child, .dropdown-menu #nav li:active ul:first-child {
-display:block;
+    display:block;
 }
 
 .dropdown-menu #nav li:hover li, .dropdown-menu #nav li:active li {
-background-image:none;
+    background-image:none;
 }
 
 .dropdown-menu #nav li li {
-float:none;
-width:100%;
-padding: 2px;
+    float:none;
+    width:100%;
+    padding: 2px;
 }
 
 .dropdown-menu #nav li li:last-child {
-border-bottom:none;
+    border-bottom:none;
+    padding-left:0px;
 }
 
 .dropdown-menu #nav ul li ul li a {
-width:auto;
-color:#A8996E!important;
+    width:auto;
+    color:#A8996E!important;
 }
 
 .dropdown-menu #nav ul li ul li a:hover, .dropdown-menu #nav ul li ul li a:active {
@@ -78,14 +73,14 @@ color:#A8996E!important;
 }
 
 .dropdown-menu #nav ul li ul {
-border:#00a160 solid 1px!important;
+    border:#00a160 solid 1px!important;
 }
 
 .dropdown-menu #nav ul li ul li {
-float: right;
-clear:both;
-padding: 2px 6px 7px 9px;
-background-image:none;
-border:#00a160 solid 1px!important;
+    float: right;
+    clear:both;
+    padding: 2px 6px 7px 9px;
+    background-image:none;
+    border:#00a160 solid 1px!important;
 }
 
