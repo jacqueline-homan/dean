@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="<?php echo get_option('html_type');?>; charset=<?php bloginfo('charset');?>"/>
 <meta name="google-site-verification" content="wq4INjZ0fF5x0byfhBjJPxXJhSzX8WGxqhiFLaDlXVQ" />
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>" type="text/css" media="all"/>
+<link rel="stylesheet" href="./wp-content/themes/c50y/new-header.css" type="text/css" media="all" />
 <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="<?php TDU();?>/ie.css"/><![endif]-->
 
 <?php wp_head(); ?></head><body><div id="wrapper"><div class="wrapper-holder"><?php
