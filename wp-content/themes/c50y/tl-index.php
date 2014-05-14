@@ -10,9 +10,9 @@ the_sidebar('home-header');
 if (have_posts()){
 
 	the_post();
-	
-	//*$_attachments = get_post_attachments_ids(get_the_ID());
-	$_attachments = "";
+	//echo "hello Dean";
+	$_attachments = get_post_attachments_ids(get_the_ID());
+	//$_attachments = "";
 	if (!empty($_attachments)){
 		?><div class="photos gallery"><?php
 			?><ul><?php
@@ -42,7 +42,7 @@ if (have_posts()){
 					?><li><?php
 						?><span class="visual"><?php
 							$_src = wp_get_attachment_image_src($_attachments[2], 'full');
-							?><a href="<?php echo $_src[0];?>" class="cboxElement"><?php
+							?><a href="<?php echo $_src[0];?>" class="cboxElement"><?php 
 								echo wp_get_attachment_image($_attachments[2], 'home-3');
 								?><span class="zoom">&nbsp;</span><?php
 							?></a><?php

@@ -266,6 +266,37 @@ input,textarea,select {
   padding: 0 15px 0 14px;
 }
 
+
+.boxes .box a {
+	float: right;
+	position: relative;
+	padding: 0px 16px 0px 17px;
+    padding-top: 0px;
+    padding-right-value: 16px;
+    padding-bottom: 0px;
+    padding-left-value: 17px;
+    padding-left-ltr-source: physical;
+    padding-left-rtl-source: physical;
+    padding-right-ltr-source: physical;
+    padding-right-rtl-source: physical;
+    width: 287px;
+    float: left;
+    font: 11px/11px Tahoma,Arial,Helvetica,sans-serif;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -x-system-font: none;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    color: #280F0C;
+	
+}
+
 .text-box {
   height: 1%;
   overflow: hidden;
