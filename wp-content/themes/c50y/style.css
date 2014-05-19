@@ -50,7 +50,10 @@ body {
 }
 
 img {
-  border-style: none;
+	position: relative; 
+    border-style: none;
+    border-top-style: none;
+    
 }
 
 a {
@@ -266,6 +269,10 @@ input,textarea,select {
   padding: 0 15px 0 14px;
 }
 
+#home-sidebar {
+	float: left;
+	width: 334px;
+}
 
 .boxes .box a {
 	float: right;
@@ -303,7 +310,7 @@ input,textarea,select {
   background: #ebe7da;
   border: 1px solid #a99a6f;
   padding: 6px 19px 11px 40px;
-  margin: 0 123px 7px 123px;
+  margin: 0 0px 7px 0px;
 }
 
 .text-box .big-ideas {
@@ -338,7 +345,8 @@ input,textarea,select {
 }
 
 .photos {
-  width: 944px;
+  float: left;
+  width: 610px;
   overflow: hidden;
 }
 
@@ -355,7 +363,6 @@ input,textarea,select {
 }
 
 .photos ul {
-  width: 955px;
   overflow: hidden;
 }
 
@@ -766,4 +773,9 @@ h2.stay-in {
   margin: auto;
   width: 100%;
   max-width: 940px;
+}
+
+#home-sidebar ul li {
+  background: url(images/bullet.gif) no-repeat scroll 0px 3px transparent;
+  padding: 0px 0px 12px 14px;
 }
