@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css" />
+
 </div></div></div><?php
 	?><div id="footer"><?php
 		?><div class="footer-holder"><?php
@@ -33,9 +33,9 @@
 			</div>
 			<div class="footer-bottom-nav">
 					<ul>
-					  	<li>TERMS</li>
-					  	<li>DISCLAIMER</li>
-					  	<li>CONTACT THE FOUNDATION</li>
+					  	<li><a href="/terms/">TERMS</a></li>
+					  	<li><a href="/disclaimer/">DISCLAIMER</a></li>
+					  	<li><a href="/contact/">CONTACT THE FOUNDATION</a></li>
 					  	<li>COPYRIGHT © 2014 Indiana 4-H Foundation.</li>
 					</ul>
 				
